@@ -21,7 +21,7 @@ namespace BetterConsoleApp
                 _log.LogInformation($"Run number {i}");
                 _log.LogError("Run number",i);
                 _log.LogWarning("Run number");
-
+                _log.LogCritical($"Run number {i}");
             }
         }
     }
