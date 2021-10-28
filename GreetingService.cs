@@ -1,5 +1,7 @@
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Logging;
+using System;
+using System.Collections.Generic;
 
 namespace BetterConsoleApp
 {
@@ -23,6 +25,20 @@ namespace BetterConsoleApp
                 _log.LogWarning("Run number");
                 _log.LogCritical($"Run number {i}");
             }
+
+            var result = new List<string>();
+            result.Add("Hello");
+            result.Add("World!");
+            result.Add("My");
+            result.Add("name");
+            result.Add("is");
+            result.Add("...");
+
+            foreach (var item in result)
+            {
+                Console.WriteLine(item);
+            }
+
         }
     }
 }
