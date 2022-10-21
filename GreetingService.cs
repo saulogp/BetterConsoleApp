@@ -33,6 +33,9 @@ namespace BetterConsoleApp
             result.Add("name");
             result.Add("is");
             result.Add("...");
+            result.Add("Francesco");
+            result.Add("Virgulini");
+            result.Add("and this code is working correctly!");
 
             foreach (var item in result)
             {
